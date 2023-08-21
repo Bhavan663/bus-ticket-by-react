@@ -1,14 +1,16 @@
-import Header from "../Components/Header/Header";
-import Footer from "../Components/Footer/Footer";
+
 import Section from "../Components/Homepage/Section";
 import FAQ from "../Components/Homepage/FAQ";
+import React from "react";
+import { Outlet } from "react-router-dom";
 function Home (){
     return(
         <div>
-            <Header/>
+            
             <Section/>
             <FAQ />
-            <Footer/>
+            
+            <Outlet />
         </div>
             
         

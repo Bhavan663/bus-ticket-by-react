@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+
 
 function Header(){
     return(
@@ -6,11 +8,14 @@ function Header(){
         <div className="nav-top" style={{width: "230px;"}}>
             <img style={{paddingTop:"20px",paddingLeft:"100px",marginBottom: "10px"}} src="https://st.redbus.in/Images/rdc/rdc-redbus-logo.svg" alt="redBus" className="rb_logo"/>
             <div className="nav-option" style={{marginLeft: "200px", alignItems: "center", display:"block", paddingTop: "15px"}}>
+           <Link to="View">
+           
             <div className="but">
-              <button onclick = "window.location.href='bussearch.html';" style={{borderColor: "transparent",backgroundColor: "transparent"}}>
+              <button style={{borderColor: "transparent",backgroundColor: "transparent"}}>
                 <img src="https://st.redbus.in/web/images/layout/rb_vertical.svg" alt="" /><p style={{width:"90px" ,paddingTop: "5px"}}>Bus Tickets</p>
                </button>
             </div>
+            </Link>
               
                </div>
           
@@ -28,16 +33,23 @@ function Header(){
     Account
   </button>
   <ul className="dropdown-menu">
+    <Link to="Cancel" style={{textDecoration:"none"}}>
     <li><button className="dropdown-item" type="button"><a href="cancel.html" style={{textDecoration: "none",color: "black"}}>Cancel Ticket</a></button></li>
-    <li><button className="dropdown-item" type="button"><a href="show.html" style={{textDecoration: "none",color: "black"}}>Show My Ticket</a></button></li>
+    </Link>
+   <Link to="Show"  style={{textDecoration:"none"}}>
+   <li><button className="dropdown-item" type="button"><a href="show.html" style={{textDecoration: "none",color: "black"}}>Show My Ticket</a></button></li>
+   </Link>
+
     <li><button className="dropdown-item" type="button">Email/SMS</button></li>
     <li><button type="button" className="dropdown-item"><a href="login.html" className="link" style={{textDecoration: "none",color: "black"}}>log-in / Sign-up</a></button></li>
   </ul>
 </div>
             </div>
         
-           
+              
     </div>
+
+    
     
     
     )

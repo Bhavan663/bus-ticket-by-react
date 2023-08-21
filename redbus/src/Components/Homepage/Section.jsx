@@ -1,5 +1,5 @@
 import React from 'react'
-import {Link} from "react"
+import { Link } from 'react-router-dom'
 
 
 function Section(){
@@ -27,10 +27,14 @@ function Section(){
         <input type="date" name="date" id="" style={{borderColor: "transparent", fontWeight: "500" ,fontSize: "20px"}}/>
       </div>
     </div>
+    <Link to="View" style={{textDecoration:"none"}}>
     <div className="Searchbuses">
-      <Link to="/view">
-    <p style={{fontSize: "20px",textAlign: "center",paddingTop: "40px", color: "white",fontWeight: "700",cursor: "pointer"}} onclick = "window.location.href='bussearch.html';" >SEARCH BUSES</p></Link>
+      
+    <p style={{fontSize: "20px", textAlign: "center",paddingTop: "40px", color: "white",fontWeight: "700",cursor: "pointer"}}>SEARCH BUSES</p>
     </div>
+    
+    </Link>
+    
           </div>
             
           
