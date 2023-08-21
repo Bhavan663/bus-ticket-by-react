@@ -1,5 +1,5 @@
 import React from 'react'
-
+import {Link} from "react"
 
 
 function Section(){
@@ -28,7 +28,8 @@ function Section(){
       </div>
     </div>
     <div className="Searchbuses">
-    <p style={{fontSize: "20px",textAlign: "center",paddingTop: "40px", color: "white",fontWeight: "700",cursor: "pointer"}} onclick = "window.location.href='bussearch.html';" >SEARCH BUSES</p>
+      <Link to="/view">
+    <p style={{fontSize: "20px",textAlign: "center",paddingTop: "40px", color: "white",fontWeight: "700",cursor: "pointer"}} onclick = "window.location.href='bussearch.html';" >SEARCH BUSES</p></Link>
     </div>
           </div>
             
