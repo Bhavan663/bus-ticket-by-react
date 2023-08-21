@@ -33,8 +33,13 @@ function Header(){
     Account
   </button>
   <ul className="dropdown-menu">
+    <Link to="Cancel" style={{textDecoration:"none"}}>
     <li><button className="dropdown-item" type="button"><a href="cancel.html" style={{textDecoration: "none",color: "black"}}>Cancel Ticket</a></button></li>
-    <li><button className="dropdown-item" type="button"><a href="show.html" style={{textDecoration: "none",color: "black"}}>Show My Ticket</a></button></li>
+    </Link>
+   <Link to="Show"  style={{textDecoration:"none"}}>
+   <li><button className="dropdown-item" type="button"><a href="show.html" style={{textDecoration: "none",color: "black"}}>Show My Ticket</a></button></li>
+   </Link>
+
     <li><button className="dropdown-item" type="button">Email/SMS</button></li>
     <li><button type="button" className="dropdown-item"><a href="login.html" className="link" style={{textDecoration: "none",color: "black"}}>log-in / Sign-up</a></button></li>
   </ul>
