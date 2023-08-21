@@ -1,10 +1,12 @@
-import Print from "../Components/Printpage/Print";
-function Show(){
-    return(
-        <div>
-            <Print />
-        </div>
-    )
+import React from 'react'
+import Print from '../Components/Printpage/Print'
+
+function Show() {
+  return (
+    <div>
+      <Print />
+    </div>
+  )
 }
 
 export default Show

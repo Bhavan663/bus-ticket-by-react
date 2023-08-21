@@ -1,10 +1,8 @@
 import React from 'react'
 
-
-function Print() {
-    return (
-
-<div className="container-fluid" style={{ fontSize:"15px",fontWeight:"700",color:"#3e3e52",fontFamily:"sans-serif", marginTop: "100px",backgroundColor:"#f0f1f2" }}>
+function Ticket() {
+  return (
+    <div className="container-fluid" style={{ fontSize:"15px",fontWeight:"700",color:"#3e3e52",fontFamily:"sans-serif", marginTop: "100px",backgroundColor:"#f0f1f2" }}>
             <div className="d-flex justify-czontent-center align-items-center" style={{ minHeight: "1vh", marginLeft: "2px" }}>
                 <div className="container-fluid">
                     <div className="row justify-content-center" style={{ gap: "8px" }}>
@@ -59,8 +57,7 @@ function Print() {
         </div>
         
         </div>
-        
-    );
+  )
 }
 
-export default Print
+export default Ticket
