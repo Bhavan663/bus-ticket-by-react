@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import {FaUser} from 'react-icons/fa'
 
 
 function Header(){
@@ -27,10 +28,13 @@ function Header(){
                
                
             </div>
+          <div className="d-flex">
+            <div>
+            <img src="images/user.png" alt=""  style={{width:"20px",paddingTop:"9px"}}/>
+            </div>
           
-           <div className="dropdown" style={{paddingTop: "7px"}}>
-            <i className="fas fa-user" style={{paddingRight: "10px"}}></i><button  className="account dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" style={{borderColor: "transparent", backgroundColor: "#fff"}} >
-    Account
+           <div className="dropdown" style={{paddingTop: "5px"}}>  <button  className="account dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" style={{borderColor: "transparent", backgroundColor: "#fff"}} >
+    Accounts
   </button>
   <ul className="dropdown-menu">
     <Link to="Cancel" style={{textDecoration:"none"}}>
@@ -41,12 +45,15 @@ function Header(){
    </Link>
 
     <li><button className="dropdown-item" type="button">Email/SMS</button></li>
-    <li><button type="button" className="dropdown-item"><a href="login.html" className="link" style={{textDecoration: "none",color: "black"}}>log-in / Sign-up</a></button></li>
-  </ul>
+    <Link to="Sign" style={{textDecoration :"none"}}>
+    <li><button type="button" className="dropdown-item">log-in / Sign-up</button></li>
+ 
+    </Link>
+   </ul>
 </div>
             </div>
         
-              
+            </div>         
     </div>
 
     

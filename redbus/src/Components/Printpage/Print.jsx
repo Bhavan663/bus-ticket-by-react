@@ -4,12 +4,13 @@ import React from 'react'
 function Print() {
     return (
 
-<div className="container-fluid" style={{ fontSize:"15px",fontWeight:"700",color:"#3e3e52",fontFamily:"sans-serif", marginTop: "100px",backgroundColor:"#f0f1f2" }}>
+<div className="container-fluid" style={{ fontSize:"15px",fontWeight:"700",color:"#3e3e52",fontFamily:"sans-serif", marginTop: "100px",backgroundColor:"#" }}>
             <div className="d-flex justify-czontent-center align-items-center" style={{ minHeight: "1vh", marginLeft: "2px" }}>
                 <div className="container-fluid">
                     <div className="row justify-content-center" style={{ gap: "8px" }}>
                         <div className="col-lg-3">
-                            <h1 className="text-center mb-4" style={{fontSize:"16px",fontWeight:"700",color:"#3e3e52"}}>Cancel your Ticket</h1>
+                            <h1 className="text-center mb-4" style={{fontSize:"32px",fontWeight:"400",color:"#535559"}}>PRINT TICKET</h1>
+                            <h1 className="text-center mb-4" style={{fontSize:"14px",fontWeight:"400",color:"#4a4a4a"}}>Verify your details, and Print your tickets </h1>
         </div>
              </div>
                   </div> 
@@ -17,13 +18,13 @@ function Print() {
                             
                             
 
-        <div className="container-fluid" style={{ fontFamily: "'Montserrat', sans-serif", marginTop: "120px",backgroundColor:"#f0f1f2"}}>
+        <div className="container-fluid" style={{ fontFamily: "'Montserrat', sans-serif", marginTop: "120px",backgroundColor:""}}>
         <div className="d-flex justify-content-center align-items-center" style={{ minHeight: "1vh", marginLeft: "2px" }}>
             <div className="container-fluid">
                 <div className="row justify-content-center" style={{ gap: "80px" }}>
                     <div className="col-lg-3">
                             <div className="mb-3">
-                                <label htmlFor="Ticket Number" className="form-label" style={{ fontWeight: "700", fontSize: "14px",letterSpacing:"0.3px",color:"#3e3e52"}}>TICKET
+                                <label htmlFor="Ticket Number" className="form-label" style={{ fontWeight: "400", fontSize: "14px",letterSpacing:"0.3px",color:"#3e3e52"}}>TICKET
                                     NUMBER</label>
                                 <div className="d-flex gap-1" style={{ marginTop: "10px", borderBottom: "1px solid #dbdbdb", borderColor: "#d2d2d2" }}>
                                     <span style={{ marginTop: "12px", marginLeft: "8px", marginRight: "8px" }}> <img
@@ -37,7 +38,7 @@ function Print() {
                         </div>
                         <div className="col-lg-3">
                             <div className="mb-3">
-                                <label htmlFor="Ticket Number" className="form-label" style={{ fontWeight: "600", fontSize: "17px" }}>MOBILE
+                                <label htmlFor="Ticket Number" className="form-label" style={{ fontWeight: "400", fontSize: "17px" }}>MOBILE
                                     NUMBER</label>
                                 <div className="d-flex gap-1" style={{ marginTop: "10px", borderBottom: "1px solid #dbdbdb", borderColor: "#d2d2d2" }}>
                                     <span style={{ marginTop: "12px", marginLeft: "8px", marginRight: "8px" }}> +91</span>
@@ -52,14 +53,13 @@ function Print() {
 
                     </div>
                     <div style={{ marginLeft: "70%", marginTop: "10px",borderRadius:"px" }}>
-                        <input type="button" value="Select Passengers" className="btn btn-danger" id="ticketSearch" style={{borderRadius:"1px",fontFamily: "Montserrat"}}></input>
+                        <input type="button" value="SUBMIT" className="btn btn-danger" id="ticketSearch" style={{borderRadius:"1px",fontFamily: "Montserrat"}}></input>
                     </div>
                 </div>
             </div>
         </div>
         
-        </div>
-        
+        </div>        
     );
 }
 

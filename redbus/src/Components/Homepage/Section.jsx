@@ -7,7 +7,7 @@ function Section(){
         <div className="hero" style={{fontFamily: "'Montserrat', sans-serif;"}}>
           <div className="search-main" >
     <div className="search-from d-flex">
-      <i className="fa-solid fa-bus" style={{paddingTop: "40px", paddingLeft: "10px", fontSize: "25px"}}></i>
+      
       <div className="form-floating" style={{width: "100%"}}>
         <input type="text" style={{ height: "100%",borderRadius:"40px", borderColor: "transparent",fontWeight: "500",fontSize: "20px"}} className="form-control" id="floatingPassword" placeholder="Password" />
         <label for="floatingPassword" style={{paddingTop: "35px",fontSize: "18px",fontWeight: "500"}}>From</label>
