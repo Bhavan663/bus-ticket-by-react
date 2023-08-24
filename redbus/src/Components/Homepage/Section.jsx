@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import {FaBus} from 'react-icons/fa'
 
 
 function Section(){
@@ -10,14 +11,15 @@ function Section(){
       
       <div className="form-floating" style={{width: "100%"}}>
         <input type="text" style={{ height: "100%",borderRadius:"40px", borderColor: "transparent",fontWeight: "500",fontSize: "20px"}} className="form-control" id="floatingPassword" placeholder="Password" />
-        <label for="floatingPassword" style={{paddingTop: "35px",fontSize: "18px",fontWeight: "500"}}>From</label>
+        
+        <label for="floatingPassword" style={{paddingTop: "35px",fontSize: "18px",fontWeight: "500"}}><span className='BusDirect' style={{paddingRight:'10px'}}><FaBus /></span>From</label>
       </div>
     </div>
     <div className="search-to d-flex">
       <i className="fas fa-bus" style={{paddingTop: "40px", paddingLeft: "10px" , fontSize: "25px"}}></i>
       <div className="form-floating" style={{width: "100%"}}>
         <input type="text" style={{height: "100%" , borderColor: "transparent" , fontWeight: "500" ,fontSize: "20px"}} className="form-control" id="floatingPassword" placeholder="Password" />
-        <label for="floatingPassword" style={{paddingTop: "35px" , fontSize: "18px" , fontWeight: "500"}}>To</label>
+        <label for="floatingPassword" style={{paddingTop: "35px" , fontSize: "18px" , fontWeight: "500"}}><span style={{paddingRight:'10px'}}><FaBus /></span>To</label>
       </div>
     </div>
     <div className="Date d-flex">

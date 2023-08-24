@@ -3,6 +3,7 @@ import Breadcrumbs from '../Components/Viewpage/Breadcrumbs'
 import Board from '../Components/Viewpage/Board'
 import Sidebar from '../Components/Viewpage/Sidebar'
 import ViewBoard from '../Components/Viewpage/ViewBoard'
+import BusBoard from '../Components/Viewpage/BusBoard'
 function View() {
   return (
     <div>
@@ -14,7 +15,8 @@ function View() {
         <div className="col-md-10 col-12">
           <div className='row '>
             <div className='col-12'><Board/></div>
-            <div className='col-12'><ViewBoard /></div>
+            <div className='col-12' style={{padding:"0"}}><BusBoard/></div>
+            <div className='col-12' style={{padding:"0"}}><ViewBoard /></div>
           </div>
         </div>
       </div>

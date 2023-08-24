@@ -6,7 +6,8 @@ body{
     .nav-logo{
     font-family:sans-serif;
         display: flex;
-        
+            transition: box-shadow .3s;
+            box-shadow: 10px 10px 5px #ccc;
         
         
     }
@@ -187,3 +188,23 @@ body{
         padding-left: 20px; 
         text-decoration:line-through;
     }
+    
+    textarea.form-control{
+        height: 110px;
+    }
+    .cbox-label{
+        padding-left: 10px;
+    }
+    .bx-card{
+        background-color: #fff;
+        box-shadow: 0 1px 5px #ccc;
+        padding: 20px;
+    }
+    .bus-board{
+        
+        transition: box-shadow .3s;
+    }
+    .bus-board:hover{
+        box-shadow: 10px 10px 5px #ccc;
+    }
+    
