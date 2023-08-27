@@ -182,12 +182,7 @@ body{
     background-color: #545454;
     color: #fff;
     }
-    .rate-underline{
-        color: #181717;
-        font-size: 12px; 
-        padding-left: 20px; 
-        text-decoration:line-through;
-    }
+    
     
     textarea.form-control{
         height: 110px;
@@ -207,4 +202,42 @@ body{
     .bus-board:hover{
         box-shadow: 10px 10px 5px #ccc;
     }
-    
+    .login{
+        box-shadow: 10px 10px 5px #ccc;
+    }
+.custom-loweseat{
+    display: flex;
+    gap: 10px;
+}
+.custom-lowseat{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+.custom-loseat{
+    display: flex;
+    gap: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.custom-steer{
+    padding-top: 10px;
+}
+.custom-seats{
+    margin-top: 20px;
+}
+.custom-upperseat{
+    display: flex;
+    gap: 10px;
+}
+.custom-upseat{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+.custom-lowerseat{
+    display: flex;
+    gap: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}

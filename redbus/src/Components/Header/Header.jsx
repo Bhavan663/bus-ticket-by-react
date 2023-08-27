@@ -24,7 +24,9 @@ function Header(){
        
           <div className="navigation ">
             <div className=" d-flex" style={{gap: "30px", paddingTop: "10px"}}>
-                <p><i className="fas fa-headset"></i><a href="#" className="link"><span style={{paddingLeft: "5px"}}>Help</span></a></p>
+              <Link to="AddCards">
+              <p><i className="fas fa-headset"></i><a href="#" className="link"><span style={{paddingLeft: "5px"}}>Help</span></a></p>
+              </Link>
                
                
             </div>
