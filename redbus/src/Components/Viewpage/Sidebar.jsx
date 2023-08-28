@@ -27,7 +27,7 @@ function Sidebar() {
 
                 </div>
 
-                <p className="filter-titles" style={{ fontWeight: "700",fontSize:'13px' }}>
+                <p className="filter-titles" style={{ fontWeight: "700", fontSize: '13px' }}>
                     DEPARTURE TIME</p>
                 <div >
                     <div className="dept-time dt-time-filter" style={{ listStyle: "none", paddingLeft: "0" }}>
@@ -63,7 +63,7 @@ function Sidebar() {
                 </div>
 
                 <div className="filter-titles"
-                    style={{ fontWeight: "700",fontSize:'13px' , paddingTop:'15px' }}> TYPES</div>
+                    style={{ fontWeight: "700", fontSize: '13px', paddingTop: '15px' }}> TYPES</div>
                 <ul className="list-chkbox" style={{ listStyle: "none", paddingLeft: "0" }}>
                     <li data-value="" className="checkbox"
                         style={{ fontFamily: "'Montserrat', sans-serif", fontSize: "13px", paddingTop: "10px" }}>
@@ -95,7 +95,7 @@ function Sidebar() {
 
                 <div className="singleSeatContainer">
                     <div className="filter-titles"
-                        style={{ fontWeight: "700",fontSize:'13px' }}>SEAT AVAILABILITY
+                        style={{ fontWeight: "700", fontSize: '13px' }}>SEAT AVAILABILITY
                     </div>
                     <ul className="list-chkbox" style={{ listStyle: "none", paddingLeft: "0" }}>
                         <li data-value="" className="checkbox"
@@ -107,7 +107,7 @@ function Sidebar() {
                     </ul>
                 </div>
 
-                <p className="filterx" style={{ fontWeight: "700",fontSize:'13px' }}>
+                <p className="filterx" style={{ fontWeight: "700", fontSize: '13px' }}>
                     ARRIVAL TIME</p>
                 <div>
                     <ul className="dept-time dt-time-filter" style={{ listStyle: "none", paddingLeft: "0" }}>
@@ -143,9 +143,9 @@ function Sidebar() {
                 </div>
 
                 <div className="filter-titles"
-                    style={{ fontWeight: "700", paddingTop: "10px",fontSize:'12px' }}>
+                    style={{ fontWeight: "700", paddingTop: "10px", fontSize: '12px' }}>
                     BOARDING POINT</div>
-                <div className="fil-search" style={{ fontSize: "11px"}}>
+                <div className="fil-search" style={{ fontSize: "11px" }}>
                     <input type="text" placeholder=" BOARDING POINT" style={{ borderWidth: "thin", width: '100%' }} />
                 </div>
                 <div className="filter-titles"

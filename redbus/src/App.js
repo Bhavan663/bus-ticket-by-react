@@ -7,9 +7,7 @@ import View from './Pages/View';
 import Cancel from './Pages/Cancel';
 import Show from './Pages/Show';
 import Sign from './Pages/Sign';
-import AddCards from './Components/Viewpage/AddCards';
 import Footer from './Components/Footer/Footer';
-import AddProduct from './Components/AddProduct';
 
 function App() {
   return (
@@ -23,9 +21,7 @@ function App() {
         <Route path="/Cancel" element={<Cancel />} />
         <Route path="/Show" element={<Show />}/>
         <Route path='/Sign' element={<Sign />} />
-        <Route path='/AddCards' element={<AddCards/>} />
 
-      
       </Routes>
       
       <Footer />

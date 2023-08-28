@@ -2,7 +2,7 @@ import React from 'react'
 import Breadcrumbs from '../Components/Viewpage/Breadcrumbs'
 import Board from '../Components/Viewpage/Board'
 import Sidebar from '../Components/Viewpage/Sidebar'
-import ViewBoard from '../Components/Viewpage/ViewBoard'
+
 import BusBoard from '../Components/Viewpage/BusBoard'
 function View() {
   return (
@@ -16,7 +16,7 @@ function View() {
           <div className='row '>
             <div className='col-12'><Board/></div>
             <div className='col-12' style={{padding:"0"}}><BusBoard/></div>
-            <div className='col-12' style={{padding:"0"}}><ViewBoard /></div>
+
           </div>
         </div>
       </div>
