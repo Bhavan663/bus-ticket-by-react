@@ -9,6 +9,7 @@ import Show from './Pages/Show';
 import Sign from './Pages/Sign';
 import AddCards from './Components/Viewpage/AddCards';
 import Footer from './Components/Footer/Footer';
+import AddProduct from './Components/AddProduct';
 
 function App() {
   return (
