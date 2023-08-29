@@ -1,9 +1,10 @@
 import React from 'react'
+import Board from '../Components/Viewpage/Board'
 function View() {
   return (
-    <div>
-      
-    </div>
+    <Board />
+
+    
   )
 }
 
