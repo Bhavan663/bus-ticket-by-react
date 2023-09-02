@@ -3,31 +3,47 @@ const mongoose = require("mongoose")
 const employeeSchema = new mongoose.Schema({
     travelsname:{
         type:String,
-        required: true
+        
     },
     departure:{
         type:String,
-        required: true
+        
       
     },
     duration:{
         type:String,
-        required: true
+        
     },
     arrival:{
         type:String,
-        required: true
+    
     },
     ratings:{
         type:Number,
-        required: true
+        
     },
     fare :{
         type:Number,
-        required:true
+        
+    },
+    typeofbus:{
+        type:String,
+    },
+    date:{
+        type:String,
+    },
+    reviewers:{
+        type:Number,
+    },
+    boardingpoint:{
+        type:String,
+    },
+    endingpoint:{
+        type:String,
     }
+
 })
 
-const employee = new mongoose.model('employee',employeeSchema);
+const employeeModel = new mongoose.model('bus',employeeSchema);
 
-module.exports = employee;
+module.exports = employeeModel;
