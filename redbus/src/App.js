@@ -22,7 +22,6 @@ function App() {
         <Route path="/Show" element={<Show />}/>
         <Route path='/Sign' element={<Sign />} />
 
-      
       </Routes>
       
       <Footer />
