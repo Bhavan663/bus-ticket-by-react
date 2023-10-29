@@ -37,12 +37,6 @@ function Breadcrumbs() {
                     <p style={{ fontSize: "13px", paddingLeft: "10px", paddingTop: "10px", fontWeight: "600" }}>11 Aug <span
                         style={{ display: "block", fontSize: "12px", textAlign: "center", fontWeight: "600" }}>Fri</span></p>
                     <p style={{ paddingLeft: "10px", paddingTop: "10px" }}><i class="fa-solid fa-greater-than"></i></p>
-                    <div style={{ paddingLeft: "20px", paddingTop: "10px" }}>
-                        <button type="button"
-                            style={{ boxShadow: "none", borderWidth: "1px", borderColor: "#545454", width: "70px" }}><span
-                                style={{ fontSize: "13px" }}>Modify</span></button>
-                    </div>
-
                 </div>
             </div>
         </section>

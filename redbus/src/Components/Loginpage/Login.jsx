@@ -8,14 +8,14 @@ function Login() {
 <img src="images/Login.jpeg" alt="" />
       </div>
       <div className='' style={{paddingLeft:'15px'}}>
-      <img src="https://st.redbus.in/Images/rdc/rdc-redbus-logo.svg" style={{paddingTop:"15px"  }}/>
+      <img src="https://st.redbus.in/Images/rdc/rdc-redbus-logo.svg" style={{paddingTop:"15px"}} />
       <p style={{paddingTop:'5px',fontSize:'23px',color:"red"}}>Sign in to avail exciting discounts and cashbacks!!</p>
   <div className="input-group input-group-lg" style={{width:'90%'}}>
   <span className="input-group-text" id="inputGroup-sizing-lg">+91</span>
   <input type="tel" className="form-control" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required  aria-describedby="inputGroup-sizing-lg" />
 </div>
 <div style={{paddingTop:'15px ',width:'90%'}}>
-  <button style={{width:'100%',fontSize:'15px',fontWeight:'600', paddingTop:'10px',paddingBottom:'10px',backgroundColor:"#D84E55",color:'white',border:'transparent'}}>
+  <button style={{width:'100%',fontSize:'15px',fontWeight:'600', paddingTop:'10px',paddingBottom:'10px',backgroundColor:"#D84E55",color:'white',border:'transparent'}} >
     GENERATE OTP (One Time Password)
   </button>
 </div>
